@@ -19,6 +19,7 @@ página a la hora de tramitar tu compra.
 Finalmente la aplicación ha conseguido sus objetivos y soporta
 todas estas tareas. Entre las funcionalidades más importantes de la
 aplicación encontramos:
+
 -Para el administrador:
 
 * Registra a los gestores de salas, y les asigna a una o varias
@@ -54,6 +55,7 @@ o desactivarlos. Estos códigos los podrán utilizar los socios paraconseguir de
 
 * Puede revisar los mensajes de contactos enviados por
 clientes para conseguir información adicional.
+
 -Para los gestores:
 
 * Los gestores son los encargados de añadir los pases para las
@@ -67,6 +69,7 @@ información (la película que se proyectará y si será en 3D).
 * También se encargan de añadir las promociones, las cuales
 aparecen en la portada y los clientes pueden descargarse y presentar
 físicamente en el cine para conseguir ofertas exclusivas.
+
 -Para los socios:
 * Los socios podrán ver su información personal en el
 apartado perfil socio, además de poder modificar su contraseña.
@@ -89,9 +92,12 @@ convierte en un mensaje de bienvenida al usuario logueado con la
 opción de cerrar la sesión. Además, cuando se inicia sesión con
 un rol determinado, en el menú de navegación se añade un nuevo
 botón que da acceso a un apartado determinado, en el caso del:
-Socio -> Perfil del usuario.
-Gestor -> Apartado del gestor.
-Administrador -> Apartado del administrador.En la portada aparecen las películas que tienen un horario
+
+Socio -> Perfil del usuario.\
+Gestor -> Apartado del gestor.\
+Administrador -> Apartado del administrador.\
+
+En la portada aparecen las películas que tienen un horario
 establecido en las fechas que aparecen en los desplegables de
 elección de horario y las que tendrán horario pasadas dichas
 fechas. En la portada también aparecen diferentes promociones
