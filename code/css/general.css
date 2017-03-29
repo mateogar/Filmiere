@@ -1,0 +1,411 @@
+﻿/*Cabecera*/
+.estilo_boton_a li, #boton_login
+{
+	display: inline-block;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 1%;
+	width: 13%;
+	margin: 11px 0px 0px 0px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+button
+{
+	display: inline-block;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 1%;
+	width: 13%;
+	margin: 11px 0px 0px 0px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#boton_login
+{
+	float: right;
+	margin-right: 3%;
+	margin-top: 1%;
+	width: 7%;
+	text-decoration:none;
+}
+
+#menu li:hover a, #menu li:hover, #boton_login:hover a, #boton_login:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#barra_navegacion
+{
+	width: 100%;
+	clear: both;
+	position: relative;
+}
+
+.div_img_logotipo{
+	position: relative;
+	float: left;
+	width: 17%;
+}
+
+.div_img_logotipo img{
+	width:100%;
+}
+
+.titulo_cabecera{
+	float:left;
+	width: 70%;
+}
+
+/*------------------------------*/
+
+/*Footer*/
+#logoFoot{
+	width: 77%;
+	margin: 5%;
+}
+
+.entradasFoot{
+	width: 20%;	
+	text-align: center;
+	margin: 0% 1%;
+}
+
+#listaFoot li{
+	list-style: none;
+	display: inline-block;
+}
+
+#subentradas
+{
+	padding: 0;
+
+}
+
+#subentradas a
+{
+	color: black;
+}
+
+#subentradas li{
+	display: block;
+	margin-bottom: 5%;
+}
+
+#txt_copyright
+{
+	text-align: center;
+	clear:both;
+	float:bottom;
+}
+
+/*---------------------------------*/
+
+/*CSS en general*/
+#input_codp
+{
+	margin: 1%;
+}
+
+.columnaTablaContactos
+{
+	word-wrap: break-word;
+}
+.columnaTablaHistorial
+{
+	border: 1px solid;
+
+}
+
+#tablaContactos
+{
+	table-layout: fixed;
+}
+
+.tablasEnGeneral
+{
+	table-layout: fixed;
+}
+
+.negrita
+{
+	color: red;
+	font-weight: bold;
+}
+
+.estilo_centrado
+{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+.estilo_bloque
+{
+	padding: 1%;
+	margin: auto;
+	border: 7px solid;
+	width: 70%;
+	background-color: white;
+}
+
+.estilo_bloque_grande
+{
+	padding: 1%;
+	margin: auto;
+	border: 7px solid;
+	background-color: white;
+	clear: both;
+}
+
+.button_input
+{
+	font-size: 100%;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 2%;
+	width: 30%;
+	margin: 11px 0px 0px 0px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.button_input:hover
+{
+	background-color: white;
+    color: black;
+}
+
+.contenedor
+{
+	width: 90%;
+	margin: auto;
+	font-family: Microsoft Sans Serif;
+}
+
+h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+body{
+	background-image: url(../img/fondo3.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.separador
+{
+	border-top: 2px solid black;
+}
+
+/*Inicio Cartelera*/
+.c_pelicula{
+	background-color: white;
+	width: 20%;
+	overflow: hidden;  /* except IE6 */
+    display: inline-block; 
+}
+
+.c_imagen img{
+	width:100%;
+    border: 5px solid black;
+	border-radius: 9px;
+}
+
+.c_imagen input{
+	width:100%;
+}
+
+.c_imagen form{
+	width:100%;
+}
+
+.c_imagen{
+	width: 50%;
+	margin: auto;
+}
+
+
+/*Inicio Próximamente*/
+#c_proximamente div
+{
+	width: 100%;
+    text-align: center; 
+}
+
+#img_prox_index
+{
+	width:20%;
+}
+
+/*Inicio Promociones*/
+/*.c_promocion{
+    background-image: url(../img/celuloide.jpg) ;
+    background-repeat:no-repeat;
+    enable-background:new;
+    width: 185px;
+    height: 172px;
+    margin: 0px;
+    padding: 35px 6px 0px 6px;
+}*/
+
+/*Próximamente*/
+.c_pelicula_prox{
+	float: left;
+	position: static;
+	width: 97%;
+	background-color: white;
+	clear:both;
+	border: 7px solid;
+	margin: 20px;
+}
+
+.c_imagen_prox img{
+	width:100%;
+}
+
+.c_imagen_prox{
+	float: left;
+	margin: 5%;
+	width: 10%;
+}
+.c_datos{
+	float: left;
+	margin: auto;
+	width: 70%;
+	margin: 0% 5%;
+}
+
+/*Butacas*/
+#datos_entrada{
+	float: right;
+	text-align: center;
+	margin: 0% 10%;
+	width: 60%;
+}
+
+.numFila{
+	font-size: 30px;
+}
+
+.img_butaca{
+	width:4%;
+}
+.img_butaca_ocupada{
+	width:4%;
+}
+
+#leyenda_butacas{
+	list-style: none;
+	text-align:center;
+}
+
+#leyenda_butacas li{
+	display: inline-block;
+}
+
+.c_imagen_butacas{
+	min-width: 20%;
+	display: inline-block;
+}
+
+.imagenButaca{ 
+   width: 50%;
+}
+
+/*Tramitar Compra*/
+#texto_datos_compra
+{
+	font-size: 80%;
+}
+
+#imagenPelicula{
+	width: 15%;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 1%;
+}
+
+#img_avatar
+{
+	width: 120px;
+	height: 120px;
+}
+
+/*Horario*/
+#imagen_horario
+{
+	width:20%;
+	float: left;
+}
+
+#listadatos_horario
+{
+
+	float: left;
+
+	width: 70%;
+}
+
+#listadatos_horario li
+{
+	list-style:none;
+}
+
+#valoracion
+{
+	width: 100%;
+	padding: 1%;
+}
+
+#valoracion span
+{
+	color: gold;
+	font-size: 150%;
+}
+
+#horario
+{
+	padding: 1%;
+	width: 100%;
+}
+
+#horas
+{
+	margin: auto;
+	clear: both;
+	width: 50%;
+	background-color: white;
+}
+
+#lista_horas li
+{
+	padding: 1%;
+	display: inline-block;
+}
+
+.horaC 
+{
+	text-decoration: none;
+	background-color: #f4d600;
+	color: black;
+	padding: 4px;
+	font-size: 100%;
+    font-size: 100%;
+	margin-top: 10%;
+    margin-bottom: 10%;
+}
+.derecha
+{
+	float:right;
+	display: inline-block;
+}

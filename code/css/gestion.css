@@ -1,0 +1,113 @@
+﻿/*general*/
+/*menu*/
+.menu_ag{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 20%;
+	float: right;
+	background-color: black;
+}
+
+.menu_ag ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu_ag h4{
+	background-color: black;
+	color: white;
+}
+
+.menu_ag h4:hover{
+	color: lightgreen;
+}
+
+.menu_ag ul li{
+	list-style: none;
+	background-color: white;
+}
+
+.menu_ag ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu_ag p {
+    padding: 7%;
+    margin: 5%;
+}
+
+.menu_ag p:hover {
+	color: red;
+}
+
+.c_ag{
+	margin:auto;
+	width: 90%;
+	background-color: black;
+	position: absolute;
+	text-align: center;
+}
+
+.c_gestion_ag{
+	position: relative;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	width: 80%;
+	float: left;
+	background-color: darkgrey;
+}
+
+/*tabla*/
+
+.texto {
+	width: 90%;
+}
+
+.numSala{
+	width: 100%;
+}
+
+.c_gestion_ag table{
+	width: 100%;
+}
+
+.c_gestion_ag th{
+	background-color: blue;
+	color: white;
+}
+
+.c_gestion_ag td{
+	padding: 2% 0%;
+	background-color: grey;
+}
+
+.eliminarGestor{
+	width: 30%;
+}
+
+/*Gestor*/
+
+.anyoPelicula
+{
+	width: 12%;
+}
+
+.div_principal
+{
+	background: white;
+}
+
+.div_principal input
+{
+	float: right;
+	margin-right: 20%;
+}
+
+.btn_anyadir
+{
+	width: 10%;
+	height: 40%;
+	margin: 2%;
+}
